@@ -12,24 +12,24 @@ global.APIKeys = {
 
 global.namabot = "Bot Store"
 global.namaowner = "Zeeoneofc"
-global.packname = namabot
+global.packname = test 
 global.author = namaowner
 global.myweb = "https://s.id/zeeoneofc"
 global.footer_text = "© " + namabot
 global.pp_bot = fs.readFileSync("./image/foto.jpg")
 global.qris = fs.readFileSync("./image/qris.jpg")
-global.owner = ['62887435047326']
+global.owner = ['4915257557001']
 global.sessionName = 'session'
 global.background = "https://telegra.ph/file/40342e0085d521cb8b907.jpg" //maks size 50kb agar welcome nya gk lemot
-global.prefa = ['-_-']
+global.prefa = ['-.-']
 global.grup_only = false //bot hanya bisa di gunakan dalam grup jika true
 global.mess = {
     done: 'Done ✅',
     wait: '_⌛ Sedang di proses_',
-    admin: '_Fitur Khusus Admin Group_',
-    botNotAdmin: '_Jadikan Bot Sebagai Admin Terlebih Dahulu_',
-    owner: '_Fitur Khusus Owner Bot_',
-    group: '_Fitur Khusus Dalam Group_',
+    admin: '_Besondere Funktionen für Gruppenadministratoren_',
+    botNotAdmin: '_Machen Sie den Bot zuerst zum Administrator_',
+    owner: '_Besonderheiten des Owner Bot_',
+    group: '_Gruppen-Sonderfunktionen_',
 }
 global.butwel =  [{
    buttonId: '.menu',
@@ -48,7 +48,7 @@ global.help = {
 menu(pushname, salam, mundur, upload, download, totalGb, usedGb, freeGb, ownerName, botName, jam, tanggal, runtime, prefix){
   return `${salam.slice(0,1).toUpperCase() + salam.slice(1)} ${pushname}
 
-*HITUNG MUNDUR IDUL FITRI 🌜*
+*Countdown 🌜*
  ${mundur}
 
 ╭✄┈┈┈⟬ *STATISTIC* ⟭
